@@ -1,18 +1,36 @@
-# kp_flutter_spinkit
+# flutter_library_loading (Spinkit)
 
-A new Flutter project.
+    A collection of loading indicators animated with flutter.
 
-## Getting Started
+## Demo
+    [![Watch the video](https://img.youtube.com/vi/ITHG-Z213sg/maxresdefault.jpg)](https://youtu.be/ITHG-Z213sg)
 
-This project is a starting point for a Flutter application.
+## Installing
+    dependencies:
+        flutter_spinkit: ^4.1.0
 
-A few resources to get you started if this is your first Flutter project:
+## Import
+    import 'package:flutter_spinkit/flutter_spinkit.dart';
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Usage
+  const spinkit = SpinKitRotatingCircle(
+    color: Colors.white,
+    size: 50.0,
+  );
+    
+  final spinkit = SpinKitFadingCircle(
+    itemBuilder: (BuildContext context, int index) {
+      return DecoratedBox(
+        decoration: BoxDecoration(
+          color: index.isEven ? Colors.red : Colors.green,
+        ),
+      );
+    },
+  );
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Example
+    [example.dart](https://github.com/kingpes/flutter-spinkit/blob/master/lib/showcase.dart)
 
-##git commit --amend --author="Author Name <email@address.com>"
+### See more
+- [Homepage](https://kingpesdev.firebaseapp.com/)
+- [Github](https://github.com/kingpes) 
