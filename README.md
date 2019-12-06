@@ -2,7 +2,7 @@
 
     A collection of loading indicators animated with flutter.
 
-## Demo
+## [Demo Video](https://youtu.be/ITHG-Z213sg)
 [![Watch the video](https://img.youtube.com/vi/ITHG-Z213sg/maxresdefault.jpg)](https://youtu.be/ITHG-Z213sg)
 
 ## Installing
